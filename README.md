@@ -43,13 +43,14 @@ PDF Upload → Text Extraction → Text Cleaning → Chunking → Embeddings →
 
 This project can be used for:
 
-Research Paper Analysis — Analyze and understand research papers efficiently.
-Technical Documentation Search — Search and retrieve relevant information from technical documents.
-Academic Document Analysis — Analyze academic papers, reports, and study materials.
-Knowledge-Base Question Answering — Answer questions using information from the document knowledge base.
-Multi-Document Comparison — Compare multiple documents to identify similarities, differences, and key insights.
-Information Extraction from PDFs — Extract important facts and relevant information from PDF files.
-Research Assistance — Support research tasks by retrieving and analyzing relevant document content.
+* **Research Paper Analysis**
+* **Technical Documentation Search**
+* **Academic Document Analysis**
+* **Knowledge-Base Question Answering**
+* **Multi-Document Comparison**
+* **Information Extraction from PDFs**
+* **Research Assistance**
+
 
 RAG Document Intelligence System is an AI-powered document analysis application that allows users to upload and interact with multiple PDF files. It extracts and chunks document text, generates semantic embeddings using Sentence Transformers, and uses FAISS for similarity-based retrieval. A FLAN-T5 model then generates context-aware responses.
 
