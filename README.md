@@ -28,27 +28,28 @@ The system follows a standard RAG pipeline:
 PDF Upload → Text Extraction → Text Cleaning → Chunking → Embeddings → FAISS Index → Semantic Retrieval → Prompt Construction → FLAN-T5 Generation → Answer + Sources
 
 ### 🛠️Tech Stack
-Python
-PyPDF
-Sentence Transformers
-FAISS
-Hugging Face Transformers
-FLAN-T5
-PyTorch
-Gradio
-NumPy
+* **Python**
+* **PyPDF**
+* **Sentence Transformers**
+* **FAISS**
+* **Hugging Face Transformers**
+* **FLAN-T5**
+* **PyTorch**
+* **Gradio**
+* **NumPy**
+
 
 ### 📌Use Cases
 
 This project can be used for:
 
-Research paper analysis
-Technical documentation search
-Academic document analysis
-Knowledge-base question answering
-Multi-document comparison
-Information extraction from PDFs
-Research assistance
+Research Paper Analysis — Analyze and understand research papers efficiently.
+Technical Documentation Search — Search and retrieve relevant information from technical documents.
+Academic Document Analysis — Analyze academic papers, reports, and study materials.
+Knowledge-Base Question Answering — Answer questions using information from the document knowledge base.
+Multi-Document Comparison — Compare multiple documents to identify similarities, differences, and key insights.
+Information Extraction from PDFs — Extract important facts and relevant information from PDF files.
+Research Assistance — Support research tasks by retrieving and analyzing relevant document content.
 
 RAG Document Intelligence System is an AI-powered document analysis application that allows users to upload and interact with multiple PDF files. It extracts and chunks document text, generates semantic embeddings using Sentence Transformers, and uses FAISS for similarity-based retrieval. A FLAN-T5 model then generates context-aware responses.
 
