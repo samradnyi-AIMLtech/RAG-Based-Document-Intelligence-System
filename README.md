@@ -2,9 +2,7 @@
 RAG-Based Document Intelligence System | AI-Powered PDF Question Answering
 ### 1. Description
 
-* Developed an **AI-powered RAG Document Intelligence System** that allows users to upload PDF documents and ask questions in natural language.
-* Extracts and processes document content, retrieves relevant information, and generates **context-aware answers with source page references**.
-* Built an interactive interface for **document-based question answering**.
+A RAG (Retrieval Augmented Generation) architecture that is smart enough to mine, retrieve, and generate insights from a large number of documents. The architecture consists of document processing, semantic search, vector databases, and LLMs for generating accurate answers to any query posed to it.
 
 ### 2. Technologies Used
 
