@@ -1,25 +1,25 @@
 # RAG-Based-Document-Intelligence-System
 RAG-Based Document Intelligence System | AI-Powered PDF Question Answering
-### 1. Description
+### Description
 
 A RAG (Retrieval Augmented Generation) architecture that is smart enough to mine, retrieve, and generate insights from a large number of documents. The architecture consists of document processing, semantic search, vector databases, and LLMs for generating accurate answers to any query posed to it.
 
 ### Key Features
 
-Multi-PDF — Allows you to upload and analyze multiple PDF files at once.
-Semantic Search — Embeds chunks of your document using all-MiniLM-L6-v2.
-FAISS Vector Search — Provides an efficient search of the most relevant document information.
-AI Answers — Generates answers based on the retrieved context using Google's FLAN-T5-Base model.
-Multiple Intelligence Modes
-Ask — Answer questions related to your uploaded documents.
-Summarize — Summarize the information in the documents.
-Compare — Find common features, differences, and insights.
-Extract — Extract key factual information from your documents.
-Research — Provide research-style answers.
-Document Selection — Choose which documents you want to use for the retrieval of information.
-Source References — Shows the name of the document and page number where the information is retrieved from.
-Interactive User Interface — Built using Gradio for easy-to-use document analysis.
-Context-Based Responses — Context-only answers designed to not provide any unsupported information.
+* **Multi-PDF** — Upload and analyze multiple PDF files at once.
+* **Semantic Search** — Uses `all-MiniLM-L6-v2` to create document embeddings.
+* **FAISS Vector Search** — Efficiently retrieves the most relevant document information.
+* **AI Answers** — Generates answers using Google’s `FLAN-T5-Base` model.
+* **Multiple Intelligence Modes** — Ask, Summarize, Compare, Extract, and Research.
+* **Ask** — Answers questions based on the uploaded documents.
+* **Summarize** — Provides concise summaries of document content.
+* **Compare** — Identifies similarities, differences, and key insights across documents.
+* **Extract** — Extracts important factual information from documents.
+* **Research** — Generates research-style answers using retrieved document context.
+* **Document Selection** — Allows users to select specific documents for information retrieval.
+* **Source References** — Displays the document name and page number for retrieved information.
+* **Interactive User Interface** — Built with Gradio for easy document analysis.
+* **Context-Based Responses** — Provides answers using only retrieved document context to avoid unsupported information.
 
 ### System Workflow
 
