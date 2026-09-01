@@ -18,6 +18,6 @@ A RAG-based Document Intelligence System that allows users to upload and interac
 - **Gradio Interface** – Interactive interface for testing the document intelligence pipeline.
 - **Streamlit Deployment** – Web-based interface for uploading, processing, and querying documents.
 
-- ### RAG Pipeline Overview
-- PDF Upload → Text Processing → Embeddings → FAISS Retrieval → Context Retrieval → Prompt Creation → Qwen LLM → Document Intelligence → Answer + Citations
+   ### RAG Pipeline Overview
+  PDF Upload → Text Processing → Embeddings → FAISS Retrieval → Context Retrieval → Prompt Creation → Qwen LLM → Document Intelligence → Answer + Citations
 
