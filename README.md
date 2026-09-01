@@ -3,6 +3,7 @@
 Demo link - https://rag-doc-intelligence.streamlit.app/
 
 A RAG-based Document Intelligence System that allows users to upload and interact with multiple PDF documents using AI-powered retrieval and analysis.The system supports multiple intelligence modes, including Ask, Summarize, Compare, Extract, and Research, enabling users to query individual or multiple documents and receive context-aware responses with relevant citations.
+### Tech Stack: Python • RAG • Sentence Transformers • FAISS • Qwen 2.5 • Gradio • Streamlit
 
 ## Key Features
 - **Multi-PDF Support** – Upload and process multiple PDF documents simultaneously.
@@ -16,3 +17,7 @@ A RAG-based Document Intelligence System that allows users to upload and interac
 - **Citations** – Provides document-grounded responses based on retrieved content.
 - **Gradio Interface** – Interactive interface for testing the document intelligence pipeline.
 - **Streamlit Deployment** – Web-based interface for uploading, processing, and querying documents.
+
+- ### RAG Pipeline Overview
+- PDF Upload → Text Processing → Embeddings → FAISS Retrieval → Context Retrieval → Prompt Creation → Qwen LLM → Document Intelligence → Answer + Citations
+
