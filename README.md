@@ -1,6 +1,7 @@
 # RAG Document Intelligence System
 
 A Streamlit version of the RAG Document Intelligence project.
+demo link - https://rag-doc-intelligence.streamlit.app/
 
 ## Features
 
